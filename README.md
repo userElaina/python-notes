@@ -148,3 +148,14 @@ img.show()
 img.save('pil.png')
 ```
 
+#### Windows Toast
+```py
+import win10toast
+
+win10toast.ToastNotifier().show_toast(
+	title="Hello World!!!",
+	msg="Python is 10 seconds awsm!",
+	icon_path="1.ico",
+	duration=10
+)
+```
